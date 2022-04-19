@@ -1,0 +1,8 @@
+{
+  "name": "sena-microservice1-productservice",
+  "buildpacks": [
+    {
+      "url": "heroku/gradle"
+    }
+  ]
+}
