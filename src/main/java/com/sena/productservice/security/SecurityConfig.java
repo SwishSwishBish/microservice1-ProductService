@@ -11,10 +11,10 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-    @Value("${sevice.security.secure-key-username}")
+    @Value("${service.security.secure-key-username}")
     private String SECURE_KEY_USERNAME;
 
-    @Value("${sevice.security.secure-key-password}")
+    @Value("${service.security.secure-key-password}")
     private String SECURE_KEY_PASSWORD;
 
     @Override
